@@ -12,4 +12,6 @@ The machine learning algorithms used inclue:
 * BalancedRandomForestClassifier (bias reduction model)
 * EasyEnsembleClassifier (bias reduction model)
 
-Result: the Easy Ensemble AdaBoost Classifier proved to the be the best test performed due to its accuracy score of around 99%.
+Two evaluation methods: ensemble learning and re-sampling
+1. Easy Ensemble AdaBoost Classifier performs the best with our steps & dataset; therefore, we would move forward with this estimator for further predictions.
+2. The oversampling recall score (with SMOTE) has the highest score for predicting both low-risk and high risk loan statuses.This is the best machine learning model to choose for further credit card analysis.
